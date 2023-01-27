@@ -1,0 +1,5 @@
+*{
+  background-image: linear-gradient(hsl(215, 74%, 92%), hsl(227, 47%, 96%));
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
