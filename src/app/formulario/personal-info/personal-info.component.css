@@ -38,6 +38,7 @@
   color: #FFFFFF;
   margin-right: 5%;
   margin-top: 5px;
+  cursor: default;
 }
 
 .botao-content{
@@ -47,13 +48,58 @@
   margin-top: 10%;
 }
 
+#botao-ativado{
+  border-radius: 50%;
+  border: 1px solid hsl(206, 94%, 87%);
+  width: 30px;
+  height: 30px;
+  background: hsl(206, 94%, 87%);
+  color: black;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+
 .steps-text{
   font-size: 13px;
   margin-bottom: 0px;
   text-align: start;
+  color: hsl(231, 11%, 63%);
 }
 
 .steps-info{
   font-size: 14px;
   font-weight: 700;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title h2{
+  text-align: start;
+  font-weight: 700;
+}
+
+.title p{
+  color: hsl(231, 11%, 63%);
+}
+
+.formulario-inputs{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.formulario-inputs input{
+  width: 440px;
+}
+
+.botao-next-step{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15%;
 }
