@@ -12,14 +12,14 @@
               </div>
             </div>
             <div class="botao-content">
-              <button id="botao-ativado">2</button>
+              <button>2</button>
               <div class="text">
                 <p class="steps-text">STEP 2</p>
                 <p class="steps-info">SELECT PLAN</p>
               </div>
             </div>
             <div class="botao-content">
-              <button>3</button>
+              <button id="botao-ativado">3</button>
               <div class="text">
                 <p class="steps-text">STEP 3</p>
                 <p class="steps-info">ADD-ONS</p>
@@ -36,51 +36,23 @@
         </div>
         <div class="col col-lg-8 form">
           <div class="title mb-2">
-            <h2>Select your plan</h2>
-            <p>You have the option of monthly or yearly billing.</p>
+            <h2>Pick add-ons</h2>
+            <p>Add-ons help enhance your gaming experience.</p>
           </div>
-            <div class="cards">
-              <div class="container text-center">
-                <div class="row">
-                  <div class="col cards-div-button">
-                    <button>
-                      <img class="img-button" src="../../../assets/images/icon-arcade.svg">
-                      <h5 class="plan-button">Arcade</h5>
-                      <p class="price-button">$9/mo</p>
-                    </button>
-                  </div>
-                  <div class="col">
-                    <button>
-                      <img class="img-button" src="../../../assets/images/icon-advanced.svg">
-                      <h5 class="plan-button">Advanced</h5>
-                      <p class="price-button">$12/mo</p>
-                    </button>
-                  </div>
-                  <div class="col">
-                    <button>
-                      <img  class="img-button"src="../../../assets/images/icon-pro.svg">
-                      <h4 class="plan-button">Pro</h4>
-                      <p class="price-button">$15/mo</p>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="time">
-              <p>Monthly</p>
-              <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-              </label>
-              <p>Yearly</p>
-            </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">Online service</label>
+            <p>Access to multiplayer games</p>
+          </div>
             <div class="next-and-back">
-              <button routerLink="/personal-info" class="go-back">Go Back</button>
+              <button routerLink="/plan" class="go-back">Go Back</button>
               <div class="mb-3 botao-next-step">
                 <button type="submit" routerLink="/add-ons" class="btn btn-primary">Next Step</button>
               </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
