@@ -232,6 +232,16 @@ input:checked + .slider:before {
   width: 72%;
 }
 
+.botao-next-step button{
+  background-color: hsl(213, 96%, 18%);
+  color: #ffffffc7;
+}
+
+.botao-next-step button:hover{
+  background-color: hsl(213, 96%, 18%);
+  color: #ffffff;
+}
+
 
 .go-back{
   color: hsl(231, 11%, 63%);

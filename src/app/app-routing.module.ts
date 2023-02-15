@@ -1,3 +1,4 @@
+import { SummaryComponent } from './formulario/summary/summary.component';
 import { AddOnsComponent } from './formulario/add-ons/add-ons.component';
 import { PlanComponent } from './formulario/plan/plan.component';
 import { PersonalInfoComponent } from './formulario/personal-info/personal-info.component';
@@ -18,6 +19,9 @@ const routes: Routes = [
   {
     path: 'add-ons',
     component: AddOnsComponent},
+  {
+    path: 'summary',
+    component: SummaryComponent},
 ];
 
 @NgModule({

@@ -7,6 +7,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { PersonalInfoComponent } from './formulario/personal-info/personal-info.component';
 import { PlanComponent } from './formulario/plan/plan.component';
 import { AddOnsComponent } from './formulario/add-ons/add-ons.component';
+import { SummaryComponent } from './formulario/summary/summary.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AddOnsComponent } from './formulario/add-ons/add-ons.component';
     FormularioComponent,
     PersonalInfoComponent,
     PlanComponent,
-    AddOnsComponent
+    AddOnsComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule,
