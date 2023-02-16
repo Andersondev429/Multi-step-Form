@@ -254,3 +254,116 @@ input:checked + .slider:before {
   color: hsl(213, 96%, 18%);
 }
 
+@media (max-width: 1215px)
+{
+  .cards button{
+    width: 110px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  .cards button:hover{
+    width: 110px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  .cards button:focus{
+    width: 110px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1166px)
+{
+
+}
+
+@media (max-width: 1065px)
+{
+  .cards button{
+    width: 95px;
+  }
+
+  .cards button:hover{
+    width: 95px;
+  }
+
+  .cards button:focus{
+    width: 95px;
+  }
+}
+
+@media (max-width: 920px)
+{
+  .steps-info{
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .plan-button{
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .cards button{
+    width: 85px;
+  }
+
+  .cards button:hover{
+    width: 85px;
+  }
+
+  .cards button:focus{
+    width: 85px;
+  }
+}
+
+@media (max-width: 768px)
+{
+  .cards button{
+    width: 85px;
+  }
+
+  .cards button:hover{
+    width: 85px;
+  }
+
+  .cards button:focus{
+    width: 85px;
+  }
+}
+
+@media (max-width: 529px)
+{
+  .steps-text{
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .formulario-inputs input{
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .formulario-inputs input{
+    width: 200px;
+  }
+}
+
+@media (max-width: 358px)
+{
+  .formulario-inputs input{
+    width: 150px;
+  }
+
+  .steps-info{
+    font-size: 10px;
+    font-weight: 700;
+  }
+}
